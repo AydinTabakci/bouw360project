@@ -1,54 +1,39 @@
-# Bouw360Project
+# 🏗️ Bouw360 Website
 
-Een professionele website voor een bouwbedrijf. Dit project biedt een complete online aanwezigheid voor een bouwbedrijf, inclusief informatie over diensten, projecten en contactmogelijkheden.
+Een maatwerk website gebouwd met PHP, Twig en Tailwind.  
+Bezoek de website op [bouw360.nl](https://bouw360.nl)
 
-## Inhoud
+---
 
-- [Over het project](#over-het-project)
-- [Functionaliteiten](#functionaliteiten)
-- [Installatie](#installatie)
-- [Gebruik](#gebruik)
-- [Bijdragen](#bijdragen)
-- [Licentie](#licentie)
+## 🚀 Features
 
-## Over het project
+- 🛡️ **Security**
+  - CSRF-protectie op alle POST-requests
+  - Sessies met veilige cookies
+  - Basis rate limiting
 
-Bouw360Project is een professionele website ontworpen voor een bouwbedrijf. De website presenteert het bedrijf, toont uitgevoerde projecten en biedt bezoekers de mogelijkheid om contact op te nemen.
+- 🎨 **Frontend**
+  - Responsive design
+  - Twig templates
+  - Moderne UI
+  - Tailwind
 
-## Functionaliteiten
+- ⚙️ **Backend**
+  - Controllers + views (Twig)
+  - RedBeanPHP
 
-- **Homepage** – Welkomstpagina met een overzicht van het bedrijf en haar diensten
-- **Diensten** – Overzicht van alle aangeboden bouwdiensten
-- **Projecten** – Portfolio met afgeronde en lopende bouwprojecten
-- **Over ons** – Informatie over het bedrijf, team en geschiedenis
-- **Contact** – Contactformulier en bedrijfsgegevens
+---
 
-## Installatie
+## 🔐 CSRF bescherming
 
-1. Kloon de repository:
-   ```bash
-   git clone https://github.com/AydinTabakci/bouw360project.git
-   ```
-2. Navigeer naar de projectmap:
-   ```bash
-   cd bouw360project
-   ```
-3. Open `index.html` in je browser of gebruik een lokale webserver.
+- CSRF-token wordt aangemaakt
+- Wordt meegestuurd in elk formulier
+- Wordt gevalideerd bij elke POST request
 
-## Gebruik
+---
 
-Open de website in een moderne webbrowser. Alle pagina's zijn bereikbaar via het navigatiemenu bovenaan de site.
+Gebouwd als maatwerk project voor een klant.
+Ontwikkeld met focus op eenvoud, veiligheid en uitbreidbaarheid.
 
-## Bijdragen
-
-Bijdragen zijn welkom! Maak een fork van dit project, maak je wijzigingen en dien een pull request in.
-
-1. Fork het project
-2. Maak een feature branch aan (`git checkout -b feature/mijn-feature`)
-3. Commit je wijzigingen (`git commit -m 'Voeg mijn feature toe'`)
-4. Push naar de branch (`git push origin feature/mijn-feature`)
-5. Open een Pull Request
-
-## Licentie
-
-Dit project is beschikbaar onder de [MIT-licentie](LICENSE).
+📄 Licentie
+Dit project is niet openbaar en mag niet worden gebruikt, gekopieerd of verspreid zonder toestemming van de eigenaar.
