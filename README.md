@@ -36,4 +36,4 @@ Gebouwd als maatwerk project voor een klant.
 Ontwikkeld met focus op eenvoud, veiligheid en uitbreidbaarheid.
 
 📄 Licentie
-Dit project is privé en bedoeld voor gebruik door de eigenaar van Bouw360.
+Dit project is niet openbaar en mag niet worden gebruikt, gekopieerd of verspreid zonder toestemming van de eigenaar.
