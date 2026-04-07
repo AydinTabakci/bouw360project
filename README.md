@@ -1,7 +1,7 @@
 # 🏗️ Bouw360 Website
 
 Een maatwerk website gebouwd met PHP, Twig en Tailwind.  
-Bezoek de website op [bouw360.nl](bouw360.nl)
+Bezoek de website op [bouw360.nl](https://bouw360.nl)
 
 ---
 
